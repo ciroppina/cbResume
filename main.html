@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="template per il Prontuario Mobile S21">
+    <meta name="author" content="ciroBorrelli">
+    <link rel="shortcut icon" href="http://www.hackerstribe.com/guide/IT-bootstrap-3.1.1/assets/ico/favicon.ico">
+
+    <title>ciroBorrelli Resume</title>
+
+    <!-- Normalize for different browsers -->
+    <link href="css/normalize.css" rel="stylesheet">
+	
+	<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	
+	 <!-- template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy next line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/cB-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+     
+	<!-- div class="container" THIS IS THE BASIC CONTAINER CLASS -->
+	<div class="container-fluid">
+	  
+	  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand active" href="main.html">
+			<img src="resources/manifestante.png" class="img-responsive" alt="manifestante">
+			ciroBorrelli resume
+		  </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav menu">
+            <li><a href="details.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> details</a>
+			</li>
+            <li><a href="callme.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> call(me)</a>
+			</li>
+			<li><a href="lookHere.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> look(here)</a>
+			</li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-fluid">
+
+      <!-- div class="starter-template" -->
+	  <div class="row" style="padding: 0px 2px;">
+        <p class="h1">ciroBorrelli</p>
+        <p class="h4">software engineer</div>
+	  </div>
+	  
+	  <div class="row" style="padding: 0px 2px; margin-top: 25px;">
+	  </div>
+
+	  <div class="row">
+ 		  <div class="h3 col-xs-12" style="margin-left: 25px;">metrics</div>
+	  </div>
+
+	  <div class="row" style="padding: 0px 5px;">
+		  <div class="col-xs-11">
+			<div class="progress">
+				<div class="progress-bar progress-bar-age" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="age leftm" id="age"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-wrk" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="wrk leftm" id="wrk"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-it" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="it leftm" id="it"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-dev" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="dev leftm" id="dev"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-rd" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="rd leftm" id="rd"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-pm" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="pm leftm" id="pm"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-cto" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="cto leftm" id="cto"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-jee" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="jee leftm" id="jee"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-idol" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="idol leftm" id="idol"></span>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="col-xs-11">
+  			<div class="progress">
+				<div class="progress-bar progress-bar-lean" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" >
+					<span class="lean leftm" id="lean"></span>
+				</div>
+			</div>
+		  </div>
+	  </div>
+	  
+	  <div class="row" style="padding: 0px 2px; margin-top: 25px;">
+	  </div>
+
+	  <div class="row">
+ 		  <div class="h3 col-xs-12" style="margin-left: 25px;">sum-up</div>
+	  </div>
+	  
+	  <div class="row" style="padding: 0px 5px;">
+		<div class="col-xs-11">
+			<div class="list-group">
+
+				<a class="list-group-item active" style="background-color: #990099; ">
+					<p class="h4 list-group-item-heading"><em>Lean Thinking & Agile</em> Methodologies</p>
+					
+					<p class="list-group-item-text">
+						<b>2014 - 2015</b>: Collaboration with prof. 
+						<button type="button" class="btn btn-muccini btn-default">
+							Henry Muccini
+						</button> 
+						@DISIM of UnivAQ.it as a <b>Consultant</b>
+						on Mecatronic SW Architecture Development with SCRUM
+					</p>
+					
+					<p class="list-group-item-text">
+						<b>2012</b>: 
+						<button type="button" class="btn btn-disim btn-default">
+							@DISIM of UnivAQ.it 
+						</button>
+						(Università degli Studi di L'Aquila - Dept. of Engineering Informatics and Science) 
+						<b>teacher</b> of the 6-months 9-credits <b>Course of "Software Project 
+						Mgnt w/Agile Methods"</b>
+					</p>
+					
+					<p class="list-group-item-text">
+						<b>2010</b>: Certified SCRUM Master by ScrumAlliance.org 
+						(certifier: 
+						<button type="button" class="btn btn-craig btn-default">
+							Craig Larman
+						</button> )
+					</p>
+					
+					<p class="list-group-item-text">
+						<b>2007 - 2009</b>: @metodiagili.it ( <button type="button" class="btn btn-cirillo btn-default">
+							Francesco Cirillo
+						</button> ) courses and project mentoring on:
+					</p>
+					<p class="list-group-item-text">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								- TDD, Emerging SW Design, OO Design Patterns, Code Review, Refactoring </div>
+							<div class="panel-body">
+								- XP Pair Programming </div>
+							<div class="panel-body">
+								- SCRUM Boxed Time Task Dev., Breakdown metrics, Continuous Integration, 
+								Early & Frequent Releases, Team Sustainable Pace </div>
+						</div><!--.panel-->
+					</p>
+				</a>
+			
+				<a class="list-group-item active" style="background-color: #CC3300;">
+					<p class="h4 list-group-item-heading"><em>HP</em> Autonomy IDOL Server - KMS platform specialist</p>
+					<p class="list-group-item-text">
+						2006: Advanced IDOL Administration Course + Certification
+					</p>
+					<p class="list-group-item-text">
+						IDOL platform expert on 7.0, 7.5, 10.0 - 10.10 versions
+					</p>
+					<p class="list-group-item-text">
+						Software Systems and Services Development & Maintenance in the following fields:
+						Knowledge Mgnt Systems, Document Mgnt & Conservation Systems, Decision Support Systems, 
+						Legal Affairs & Litigation Mgnt, Entity extraction, Relationship Discovery, 
+						Automatic Classification & Clustering, Natural language & Cross Languages Searches, 
+						Connector-based Retrieval Import & Indexing, Distributed Installations, OCR
+					</p>
+				</a>
+
+				<a class="list-group-item active" style="background-color: #663300;">
+					<p class="h4 list-group-item-heading"><em>JEE</em> Enterprise Applications</p>
+					<p class="list-group-item-text">
+						Since 2000: WebSphere 4 A.S. based Web Banking applications
+					</p>
+					<p class="list-group-item-text">
+						Several A.S: WebSphere 8, JBoss EAP 6, Wildfly 8 & 9, JBossWS, Resin, Tomcat 7 & 8, Liferay 5
+					</p>
+					<p class="list-group-item-text">
+						Several technologies: MDA, BPM, CDI, JSF 2, JPA 2, EJB 3.1, Hibernate 3, CXF 3, JBossWS 5.0, 
+						Maven 3 build test & deploy, SVN, Git / GitHub
+					</p>
+					<p class="list-group-item-text">
+						Software Systems and Applications in the following areas:
+						TPL for Sustainable Public Trasport Policies, CO2 Reduction Programs & Monitoring, 
+						several Banking services, Customers Loan Mgnt, Cyber Security Monitoring, Car-crashes Prevention 
+						and Monitoring, Field Data Collection and Elaboration for tax-evasion / tax-fraud Discovery, 
+						Crime Scene Evaluation systems, Black Box - Flight Recorder Data Analisys, B-diabetes Patients 
+						Monitoring, Virtual Reality system for Upper-limbs Rehabilitation 
+					</p>
+				</a>
+
+				<a class="list-group-item active" style="background-color: #6A8344;">
+					<p class="h4 list-group-item-heading"><em>Android</em> Mobile Applications</p>
+					<p class="list-group-item-text">
+						Since 2013: Android 4.0+ native applications
+					</p>
+					<p class="list-group-item-text">
+						Development: ADT, ADB, Odin, Target 14+, SDK ARM & Intel Atom, ORM SQL, Responsive, Bootstrap 3
+					</p>
+					<p class="list-group-item-text">
+						Software Applications for the Local/City Police Officers, in the following areas:
+						Violations Investigation & Discovery (vehicle drivers behavior), Road Safety, Car Accidents Database, 
+						Tax evasion on-the-field investigation & notification
+					</p>
+				</a>
+
+
+			</div><!--.list-group-->
+		</div>
+	  </div>
+
+
+	  <footer class="footer" style="margin: 25px 5px; font-size: 1.1em;">
+        <p>© all rights reserved, ciroBorrelli 2015-2020</p>
+		<p style="font-size: 0.8em;">made with 
+			<button class="btn btn-bootstrap btn-default">		
+				Twitter Bootstrap
+			</button>
+			and 
+			<button class="btn btn-glyph btn-default">
+				GlyphIcons Halflings
+			</button></p>
+      </footer>
+    
+	</div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+	$('.progress-bar').ready( function(){
+		var valeur = new Date().getFullYear();
+		
+		var age = (new Date().getFullYear() - 1962) / 1.00;
+		$('.progress-bar-age').css('width', 100 +'%').attr('aria-valuenow', valeur);
+		//window.alert(age);
+		$('#age').text(age + ' years old');
+
+		agepc = age / 100;
+		
+		var wrk = (new Date().getFullYear() - 1984) / agepc;
+		$('.progress-bar-wrk').css('width', wrk +'%').attr('aria-valuenow', valeur);
+		$('#wrk').text('@work since: ' + (new Date().getFullYear() - 1984) + 'yrs');
+
+		var dev = (new Date().getFullYear() - 1994) / agepc;
+		$('.progress-bar-dev').css('width', dev+'%').attr('aria-valuenow', valeur);
+		$('#dev').text('SW Dev: ' + (new Date().getFullYear() - 1994) + 'yrs');
+
+		var it = (new Date().getFullYear() - 1986) / agepc;
+		$('.progress-bar-it').css('width', it+'%').attr('aria-valuenow', valeur);
+		$('#it').text('IT Ops: ' + (new Date().getFullYear() - 1986) + 'yrs');
+
+		var rd = (new Date().getFullYear() - 2003) / agepc;
+		$('.progress-bar-rd').css('width', rd+'%').attr('aria-valuenow', valeur);
+		$('#rd').text('R&D: ' + (new Date().getFullYear() - 2003) + 'yrs');
+
+		var pm = (new Date().getFullYear() - 2000) / agepc;
+		$('.progress-bar-pm').css('width', pm +'%').attr('aria-valuenow', valeur);
+		$('#pm').text('Project Mgnt: ' + (new Date().getFullYear() - 2000) + 'yrs');
+
+		var cto = (new Date().getFullYear() - 2007) / agepc;
+		$('.progress-bar-cto').css('width', cto +'%').attr('aria-valuenow', valeur);
+		$('#cto').text('CTO: ' + (new Date().getFullYear() - 2007) + 'yrs');
+
+		var jee = (new Date().getFullYear() - 2001) / (agepc / 2);
+		$('.progress-bar-jee').css('width', jee +'%').attr('aria-valuenow', valeur);
+		$('#jee').text('Java/JEE: ' + (new Date().getFullYear() - 2001) + 'yrs');
+		
+		var idol = (new Date().getFullYear() - 2006) / (agepc / 2);
+		$('.progress-bar-idol').css('width', idol +'%').attr('aria-valuenow', valeur);
+		$('#idol').text('KMS Idol: ' + (new Date().getFullYear() - 2006) + 'yrs');
+
+		var lean = (new Date().getFullYear() - 2008) / (agepc / 2);
+		$('.progress-bar-lean').css('width', lean +'%').attr('aria-valuenow', valeur);
+		$('#lean').text('Lean / Agile: ' + (new Date().getFullYear() - 2008) + 'yrs');
+	});
+	
+	$(function(){
+		$('.btn-craig').click(function(){
+			window.open('http://www.craiglarman.com', '_blank')
+		});
+	});
+
+	$(function(){
+		$('.btn-cirillo').click(function(){
+			window.open('http://cirilloconsulting.de', '_blank')
+		});
+	});
+
+	$(function(){
+		$('.btn-disim').click(function(){
+			window.open('http://www.disim.univaq.it/', '_blank')
+		});
+	});
+	
+	$(function(){
+		$('.btn-muccini').click(function(){
+			window.open('http://www.disim.univaq.it/main/home.php?users_username=henry.muccini', '_blank')
+		});
+	});
+	
+	$(function(){
+		$('.btn-glyph').click(function(){
+			window.open('http://glyphicons.com/', '_blank')
+		});
+	});
+	
+	$(function(){
+		$('.btn-bootstrap').click(function(){
+			window.open('http://getbootstrap.com/components/', '_blank')
+		});
+	});
+	</script>
+</body></html>
